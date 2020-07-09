@@ -5,7 +5,7 @@ int sum(int val) {
   int sum = 0;
 
   for(i = 0; i < val; i++) {
-    sum += val;
+    sum += i+1;
   }
   return sum;
 }
