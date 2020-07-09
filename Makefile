@@ -12,4 +12,4 @@ main.o : main.cpp sum.h
 	g++ -c -o main.o main.cpp
 
 clean : 
-	rm *.o sum_test
+	rm -f *.o sum_test
